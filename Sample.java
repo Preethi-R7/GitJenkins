@@ -1,10 +1,14 @@
 package Sample;
 
 public class Sample {
-
-	public static void main(String args[]){
+	
+	public String print() {
+		
 		for (int i=0;i<5;i++){
 			System.out.println("Git-Jenkins Integration");
 		}
+		
+		return("Print successful");
 	}
+
 }
